@@ -1,0 +1,8 @@
+# dataset downloaded by the notebook at run time
+mt/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
