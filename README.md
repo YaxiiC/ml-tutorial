@@ -32,6 +32,24 @@ A hands-on introduction to machine learning for engineering graduate students: o
 
 ---
 
+## 用 AI 助手完成你自己的项目：分步 Prompt 手册
+
+学完上面的例子，想用**自己的数据**做一个项目？[`prompts/ML_project_prompts.md`](prompts/ML_project_prompts.md) 提供了一套给零基础学习者的分步 prompt，复制给 ChatGPT、Claude 或 Gemini，就能一步一步完成整个项目：
+
+| 步骤 | 内容 |
+|---|---|
+| P0–P3 | 总设定 → 明确问题与评估指标 → 数据体检 → **先切分、锁住测试集** |
+| P4 | 探索性分析与**相关性分析** |
+| P5–P7 | 预处理 Pipeline → 基线模型 → 多模型比较、交叉验证、调参 |
+| P8–P9 | 最终测试集评估（只做一次）→ 错误分析 |
+| P10 | **特征重要性与可解释性**（置换重要性、SHAP、部分依赖图） |
+| P11–P12 | 可复现性与项目报告 → 全面自检 |
+| DL1–DL3 | 深度学习分支（图像数据）：数据准备 → 训练 → 评估与 Grad-CAM |
+
+整套流程遵循机器学习 best practice：防止数据泄漏、和基线比较、报告结果波动、测试集只用一次。
+
+---
+
 ## 怎么运行
 
 ### 方法一：Google Colab（推荐，不用安装任何东西）
